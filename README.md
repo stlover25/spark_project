@@ -4,9 +4,11 @@ spark_project
 * 스파크의 다양한 기능들을 살펴보는 프로젝트입니다.
 * 우선적으로 파이썬용 스파크 기능을 탐색합니다.
 
-</hr>
+
+
 1. 스파크의 공식 홈페이지에서 패키지 유형을 'pre-built for hadoop 2.7'로 선택하고 다운로드 한다.
  * https://spark.apache.org/downloads.html
+
 
 
 2. 로컬 컴퓨터에 다음의 코드로 PySpark 설치
