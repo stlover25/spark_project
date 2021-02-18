@@ -28,21 +28,23 @@ spark-shell
 </pre>
 
 다음의 화면이 뜬다면 설치가 성공!
->Spark session available as 'spark'.
->Welcome to
->      ____              __
->     / __/__  ___ _____/ /__
->    _\ \/ _ \/ _ `/ __/  '_/
->   /___/ .__/\_,_/_/ /_/\_\   version 2.4.7
->      /_/
+
+<pre>
+<code>
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 2.4.7
+      /_/
          
->Using Scala version 2.11.12 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_251)
->Type in expressions to have them evaluated.
->Type :help for more information.
->scala> 
->
+Using Scala version 2.11.12 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_251)
+Type in expressions to have them evaluated.
+Type :help for more information.
 
-
+scala>
+</code>
+</pre>
 
 
 5. 기타) 로컬 컴퓨터에 다음의 코드로 PySpark 설치하는 경우
