@@ -20,11 +20,32 @@ export PATH=${PATH}:/Users/your_path/local/spark/bin
 </code>
 </pre>
 
+4. 다음의 명령어를 통해서 Spark가 잘 설치되어 있는지 확인한다. 
+<pre>
+<code>
+spark-shell
+</code>
+</pre>
+
+다음의 화면이 뜬다면 설치가 성공!
+>Spark session available as 'spark'.
+>Welcome to
+>      ____              __
+>     / __/__  ___ _____/ /__
+>    _\ \/ _ \/ _ `/ __/  '_/
+>   /___/ .__/\_,_/_/ /_/\_\   version 2.4.7
+>      /_/
+         
+>Using Scala version 2.11.12 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_251)
+>Type in expressions to have them evaluated.
+>Type :help for more information.
+>scala> 
+>
 
 
 
 
-기타. 로컬 컴퓨터에 다음의 코드로 PySpark 설치
+5. 기타) 로컬 컴퓨터에 다음의 코드로 PySpark 설치하는 경우
  * 하지만 이 방법으로 PySpark 모듈을 설치하는 경우, 모든 PySpark의 기능이 포함되어 있지 않게 된다. 
  
 <pre>
