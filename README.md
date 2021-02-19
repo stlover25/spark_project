@@ -92,4 +92,11 @@ export SPARK_LOCAL_IP='your ip address'
 </pre>
 
 
+2.
+<pre>
+<code>
+WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+</code>
+</pre>
+
 
