@@ -46,8 +46,19 @@ scala>
 </code>
 </pre>
 
+5. 파이썬 아나콘다에서 pyspark 모듈을 사용하고자 하는 경우
+* 콘솔창에서 pip install findspark로 findspark를 설치한 후, 아나콘다 창에서 spark가 설치된 경로 지정한다.
 
-5. 기타) 로컬 컴퓨터에 다음의 코드로 PySpark 설치하는 경우
+<pre>
+<code>
+import findspark
+findspark.init('/path/to/spark_home')
+import pyspark
+</code>
+</pre>
+
+
+6. 기타) 로컬 컴퓨터에 다음의 코드로 PySpark 설치하는 경우
  * 하지만 이 방법으로 PySpark 모듈을 설치하는 경우, 모든 PySpark의 기능이 포함되어 있지 않게 된다. 
  
 <pre>
