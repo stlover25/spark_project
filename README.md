@@ -73,4 +73,12 @@ pip install pyspark
 >NOTE: If you are using this with a Spark standalone cluster you must ensure that the version (including minor version) matches or you may experience odd errors
 
 
+Main Error 
+=============
+<pre>
+<code>
+WARN Utils: Your hostname, cara.local resolves to a loopback address: 127.0.0.1; using 172.30.1.11 instead (on interface en0)
+</code>
+</pre>
+
 
