@@ -75,10 +75,21 @@ pip install pyspark
 
 Main Error 
 =============
+1. 
 <pre>
 <code>
 WARN Utils: Your hostname, cara.local resolves to a loopback address: 127.0.0.1; using 172.30.1.11 instead (on interface en0)
 </code>
 </pre>
+
+* Spark가 설치될 때, spark/conf/spark-env.sh 파일이 설치되어 있지 않다. 
+* 따라서, spark/conf/spark-env.sh.template 을 복사하여, .sh로 확장자로 바꿔준 뒤(spark-env.sh 생성) 필요한 코드만 추가하여 사용한다. 
+* spark-env.sh 파일을 열고 다음의 코드를 입력한다. 
+<pre>
+<code>
+export SPARK_LOCAL_IP='<your ip>'
+</code>
+</pre>
+
 
 
