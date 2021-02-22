@@ -87,7 +87,7 @@ WARN Utils: Your hostname, cara.local resolves to a loopback address: 127.0.0.1;
 * spark-env.sh 파일을 열고 다음의 코드를 입력한다. 
 <pre>
 <code>
-export SPARK_LOCAL_IP='your ip address'
+export SPARK_LOCAL_IP='your ip address' //example = '127.0.0.1'
 </code>
 </pre>
 
