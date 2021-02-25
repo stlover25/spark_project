@@ -101,6 +101,5 @@ WARN NativeCodeLoader: Unable to load native-hadoop library for your platform...
 </code>
 </pre>
 
-관련 Link: [Hadoop “WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform” warning][https://sparkbyexamples.com/hadoop/hadoop-unable-to-load-native-hadoop-library-for-your-platform-warning/]
-
+관련 Link: [Hadoop Error][https://sparkbyexamples.com/hadoop/hadoop-unable-to-load-native-hadoop-library-for-your-platform-warning/, "hadoop_error link"]
 
