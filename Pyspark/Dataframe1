@@ -31,3 +31,7 @@ sample_dataframe = spark.range(1000).toDF("number")
 #sample_dataframe의 number가 짝수인 로우들을 찾는 트렌스포메이션
 sample_tf = sample_dataframe.where("number%2 =0")
 
+
+#Dataframe 생성
+df = spark.read.format("json").load("/Users/soyoon-yoon/Downloads/Spark-The-Definitive-Guide-master/data/flight-data/json/2015-summary.json")
+df.select("DEST_COUNTRY_NAME").show(2)
