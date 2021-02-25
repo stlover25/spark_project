@@ -13,7 +13,9 @@ spark_project
 2. 다운로드한 파일을 /User/cara/local/spark 에 넣는다.
 
 3. 환경 변수에 /Users/soyoon-yoon/local_spark/spark/bin 를 추가한다. (ex. bash_profile)
-
+** 주의사항은, export SPARK_HOME='/Users/soyoon-yoon/local_spark/spark' SPARK_HOME을 경로에 추가하는 경우, 
+      /usr/local/spark/bin/bin/spark-submit: No such file or directory 라는 에러가 발생한다.
+      
 <pre>
 <code>
 export PATH=${PATH}:/Users/your_path/local/spark/bin
