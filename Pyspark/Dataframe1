@@ -34,4 +34,11 @@ sample_tf = sample_dataframe.where("number%2 =0")
 
 #Dataframe 생성
 df = spark.read.format("json").load("/Users/soyoon-yoon/Downloads/Spark-The-Definitive-Guide-master/data/flight-data/json/2015-summary.json")
+
+#컬럼의 행/열 수 확인
+print((df.count(), len(df.columns)))
+
+
 df.select("DEST_COUNTRY_NAME").show(2)
+df.selectExpr("DEST_COUNTRY_NAME as Country name", "DEST_COUNTRY_NAME").show(10)
+
